@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.xlsdg.org/"/>
-  <updated>2016-12-15T08:15:26.000Z</updated>
+  <updated>2016-12-15T08:17:33.000Z</updated>
   <id>https://blog.xlsdg.org/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://blog.xlsdg.org/2016/12/15/yarn-instructions/"/>
     <id>https://blog.xlsdg.org/2016/12/15/yarn-instructions/</id>
     <published>2016-12-15T07:05:27.000Z</published>
-    <updated>2016-12-15T08:15:26.000Z</updated>
+    <updated>2016-12-15T08:17:33.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="安装-YARN"><a href="#安装-YARN" class="headerlink" title="安装 YARN"></a>安装 YARN</h2><p>前提条件：电脑已经配置好 Node.js 的环境。</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install -g yarn</div></pre></td></tr></table></figure>
@@ -43,12 +43,9 @@
 <li><p>更新一个依赖</p>
 <p> NPM:</p>
  <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ npm update --save [package]</div><div class="line">$ npm update --save [package]@[version]</div><div class="line">$ npm update --save [package]@[tag]</div></pre></td></tr></table></figure>
+<p> YARN:</p>
+ <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ yarn upgrade [package]</div><div class="line">$ yarn upgrade [package]@[version]</div><div class="line">$ yarn upgrade [package]@[tag]</div></pre></td></tr></table></figure>
 </li>
-</ol>
-<pre><code>YARN:
-
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ yarn upgrade [package]</div><div class="line">$ yarn upgrade [package]@[version]</div><div class="line">$ yarn upgrade [package]@[tag]</div></pre></td></tr></table></figure>
-</code></pre><ol>
 <li><p>删除一个依赖</p>
 <p> NPM:</p>
  <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm uninstall --save [package]</div></pre></td></tr></table></figure>
